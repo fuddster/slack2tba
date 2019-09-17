@@ -1,0 +1,19 @@
+{
+  "name": "slack2tba",
+  "version": "0.0.1",
+  "description": "Slack interface to The Blue Alliance data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Elmer <fudd_npm@elmerfamily.com> (http://elmerfamily.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "string-tokenizer": "0.0.8",
+    "url-regex": "^5.0.0"
+  }
+}
